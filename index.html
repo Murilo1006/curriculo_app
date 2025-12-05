@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Currículos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="home" class="tela">
+        <h1>Bem-vindo!</h1>
+        <p>Escolha um currículo para visualizar:</p>
+
+        <div class="botoes">
+            <button onclick="abrirTela('cv1')">Murilo</button>
+            <button onclick="abrirTela('cv2')">Leonardo</button>
+        </div>
+    </div>
+
+    <div id="cv1" class="tela escondido">
+        <button class="voltar" onclick="abrirTela('home')">Voltar</button>
+        <h2>Currículo 1</h2>
+        <p><strong>Nome:</strong> Murilo Gonçalves da Silva</p>
+        <p><strong>Idade:</strong> 16 anos</p>
+        <p><strong>Formação:</strong> Tecnologia da Informação</p>
+        <p><strong>Experiência:</strong> Cursando o 2° ano do curso Tecnologia da Informação </p>
+        <p><strong>Habilidades:</strong> HTML e CSS, JS, Python</p>
+    </div>
+
+    <div id="cv2" class="tela escondido">
+        <button class="voltar" onclick="abrirTela('home')">Voltar</button>
+        <h2>Currículo 2</h2>
+        <p><strong>Nome:</strong> Leonardo Teixeira da Silva</p>
+        <p><strong>Idade:</strong> 17 anos</p>
+        <p><strong>Formação:</strong> garoto de programa</p>
+        <p><strong>Experiência:</strong> dar o bumbum</p>
+        <p><strong>Habilidades:</strong> chupar um pinto</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

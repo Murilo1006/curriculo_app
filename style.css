@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tela {
+    background: white;
+    padding: 30px;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h1, h2 {
+    margin-bottom: 15px;
+}
+
+.botoes {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.botoes button:first-child {
+    background: #3b82f6;
+}
+
+.botoes button:last-child {
+    background: #16a34a;
+}
+
+.voltar {
+    background: #3b82f6;
+    margin-bottom: 15px;
+}
+
+.escondido {
+    display: none;
+}
