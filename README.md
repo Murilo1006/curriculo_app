@@ -1,5 +1,6 @@
 # curriculo_app
 
 
-https://Web-Static-App/
+https://leoteisil.github.io/Web-Static-App/
+
 
