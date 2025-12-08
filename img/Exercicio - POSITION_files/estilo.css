@@ -1,0 +1,64 @@
+.box{
+    border: 5px solid black;
+    margin: 20px auto;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+h1{
+    text-align: center;
+}
+
+div{
+    justify-content: center;
+}
+
+.item1,.item2,.item3,.item4,.item5 {
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.item1{
+    border: 2px solid rgb(248, 252, 10);
+    position: relative;
+    top: 200px;
+    left: 10px;
+    text-align: center;
+}
+
+.item2{
+   border: 2px solid rgb(168, 9, 241);
+   position: relative;
+   bottom: 95px;
+   left: 196px;
+  
+}
+
+.item3{
+    border: 2px solid #07d2ec;
+    position: relative;
+    top: 179px;
+    left: 196px;
+
+    
+}
+
+.item4{
+    border: 2px solid rgb(14, 17, 236);
+    position: absolute;
+    right: 2%;
+    bottom: 39%;
+  
+}
+
+.item5{
+    border: 2px solid rgb(231, 17, 17);
+    position: absolute;
+    right: 40%;
+    top: 40%;
+}

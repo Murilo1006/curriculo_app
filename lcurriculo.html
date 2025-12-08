@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="css_bootstrap/bootstrap.css">
+</head>
+<body>
+
+<style>
+  body {
+    background-image: url(img/fundofinal.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+    button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.botoes button:first-child {
+    background: #3b82f6;
+}
+
+.botoes button:last-child {
+    background: #16a34a;
+}
+  }
+
+  </style>
+  <div class="container-fluid">
+    <header>
+      <!-- Aqui vai o menu de navegação -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Meu Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#Sobre mim">Sobre Mim</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Habilidades">Habilidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Projetos">Projetos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Certificados">Certificado</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Educacao">Educação</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contato">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+    </header>
+  </div>
+  <div class="container">
+    <main class="text-center">
+    <section id="Sobre mim">
+        <div class="row">
+          <div>
+            <h2 style="color: #fff;">Sobre Mim</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+            <!-- Aqui aparece minha descrição -->
+            <p style="color: #fff;">Sou um estudante de programação com Interesse em área de IA, Python e tecnologias web, atualmente cursando Informática para Internet na ETEC Maria Cristina Medeiros. Tenho experiência em linguagens como HTML, CSS, JavaScript e Python.</p>
+          </div>
+          <div class="col-md-6 offset-md-3">
+            <!-- Aqui aparece minha imagem -->
+             <img src="img/Foto.jpg" alt="Minha Foto" class="img-fluid rounded-circle mx-auto d-block">
+          </div>
+        </div>
+    </section>
+    <section id="Habilidades">
+      <h2>Habilidades</h2>
+      <div class="card-group">
+        <div class="card">
+          <img src="img/html.jpeg" class="linguagens" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">HTML</h5>
+            <p class="card-text">Possuo um sólido entendimento de HTML, que utilizo para construir a estrutura de páginas web de maneira semântica e acessível. Familiarizado com as principais tags e atributos, busco sempre aplicar boas práticas de desenvolvimento, como organização de código e otimização para SEO.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/css2.png" class="linguagens" alt="">
+         <div class="card-body">
+            <h5 class="card-title">CSS</h5>
+            <p class="card-text">Tenho experiência em CSS, que utilizo para estilizar páginas web e criar layouts visualmente atraentes. Estou familiarizado com conceitos como box model, flexbox e grid layout, permitindo-me desenvolver interfaces responsivas e adaptáveis a diferentes dispositivos.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/js.png" class="linguagens" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">JavaScript</h5>
+            <p class="card-text">Possuo conhecimentos sólidos em JavaScript, que utilizo para adicionar interatividade e dinamicidade às páginas web. Estou familiarizado com a manipulação do DOM, permitindo criar funcionalidades como validação de formulários e animações. Além disso, tenho experiência com APIs e AJAX, o que me permite integrar dados externos de forma eficiente.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+          <section id="Projetos">
+            <div class="row">
+              <div>
+                <h2>Meus Projetos</h2>
+              </div>
+          
+              <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+          
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/Filmes.jpg" class="projetos" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="subtit"> Catálogo de filmes</h5>
+                      <a class="btn btn-primary" href="https://leoteisil.github.io/Catalogo_Filmes_OMDB/filmes.html" role="button">Site</a>
+                      <p class="ferramentas">Utilizei: <br>
+                        HTML <br>
+                        CSS <br>
+                        JavaScript <br>
+                        API OMDP</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/pokemon.jpg" class="projetos" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="subtit">Pokédex</h5>
+                      <p> </p>
+                      <a class="btn btn-primary" href="https://leoteisil.github.io/PokedexComApi/" role="button">Site</a>
+                      <p class="ferramentas">Utilizei: <br>
+                        HTML <br>
+                        CSS <br>
+                        JavaScript <br>
+                        API PokéAPI</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/ToDoList.jpg" class="projetos" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="subtit">To Do List</h5>
+                      <p></p>
+                      <a class="btn btn-primary" href="https://leoteisil.github.io/To_Do_List_JS-/" role="button">Site</a>
+                      <p class="ferramentas">Utilizei: <br>
+                        HTML <br>
+                        CSS <br>
+                        JavaScript <br>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/Calculadoras.jpg" class="projetos" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="subtit" >Calculadoras</h5>
+
+                      <a class="btn btn-primary" href="https://leoteisil.github.io/calc-varieties-JS/" role="button">Site</a>
+                      <p class="ferramentas">Utilizei: <br>
+                        HTML <br>
+                        CSS <br>
+                        JavaScript <br>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/jogo.jpg" class="projetos" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="subtit">Jogo-da-velha</h5>
+
+                      <a class="btn btn-primary" href="https://leoteisil.github.io/Jogo-da-velha/" role="button">Site</a>
+                      <p>Utilizei: <br>
+                        HTML <br>
+                        CSS <br>
+                        JavaScript <br>
+                    </div>
+                  </div>
+                </div>
+          
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+          
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </section>
+
+          <section id="Certificados">
+            <h2>Certificados</h2>
+            <div class="row">
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                  <img src="img/pequenos.jpg" class="card-img-top" alt="Certificado 1">
+                  <div class="card-body">
+                    <h5 class="card-title">Pequenos Talentos</h5>
+                    <a class="btn btn-primary" href="img/talentos.jpg" role="button">Link</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                  <img src="img/micro bit.png" class="card-img-top" alt="Certificado 3">
+                  <div class="card-body">
+                    <h5 class="card-title">Micro:bit SESI</h5>
+                    <a class="btn btn-primary" href="img/sesi.jpg" role="button">Link</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                  <img src="img/cuco24.jpeg" class="card-img-top" alt="Certificado 2">
+                  <div class="card-body">
+                    <h5 class="card-title">Competição USP de Conhecimentos e Oportunidades</h5>
+                    <a class="btn btn-primary" href="img/certificado-cuco-2023-89167-C49D7-FE4F7-7BADC.pdf" role="button">Link</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </section>
+
+          <section id="Educacao">
+            <h2>Educação</h2>
+            <div class="row">
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                  <img src="img/maria.jpg" class="card-img-top" alt="Certificado 1">
+                  <div class="card-body">
+                    <h5 class="card-title">Maria Therezinha Jorge Amorim</h5>
+                    <p class="card-text">Ensino fundamental 1</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                  <img src="img/olavo.jpeg" class="card-img-top" alt="Certificado 2">
+                  <div class="card-body">
+                    <h5 class="card-title">Olavo Hansen</h5>
+                    <p class="card-text">Ensino fundamental 2</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                  <img src="img/etec-ribeirao-pires.jpg" class="card-img-top" alt="Certificado 3">
+                  <div class="card-body">
+                    <h5 class="card-title">ETEC Maria Cristina Medeiros</h5>
+                    <p class="card-text">Ensino médio</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </section>
+
+    </main>
+  <div class="container-fluid">
+    <footer id="Contato">
+      <!-- Aqui vai o rodapé -->
+       <h1>Contato</h1>
+       <p>Telefone: (11) 95137-8236</p>
+       <p>Email: leoteixeira3010@gmail.com</p>
+       <p>Endereço: R.Líbero Badaró, 211 - Jardim Miranda D`Aviz, Máua - SP</p>
+      <button onclick="window.location.href='index.html'">VOLTAR PARA TELA INICIAL</button>
+    </footer>
+  </div>
+
+  <script src="js/bootstrap.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,26 +1,31 @@
 body {
-    font-family: Arial, sans-serif;
-    background: #f0f0f0;
+    font-family: "Segoe UI", sans-serif;
+    background: radial-gradient(circle at center, #0a0f24, #050712 70%);
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    color: #e2e8f0;
 }
 
 .tela {
-    background: white;
-    padding: 30px;
+    background: rgba(20, 25, 44, 0.8);
+    backdrop-filter: blur(10px);
+    padding: 40px;
     width: 90%;
     max-width: 500px;
     border-radius: 20px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 20px rgba(0, 180, 255, 0.4);
     text-align: center;
+    border: 1px solid rgba(0, 200, 255, 0.4);
 }
 
 h1, h2 {
     margin-bottom: 15px;
+    color: #00d8ff;
+    text-shadow: 0 0 8px rgba(0, 200, 255, 0.7);
 }
 
 .botoes {
@@ -36,24 +41,28 @@ button {
     border-radius: 12px;
     cursor: pointer;
     font-size: 16px;
-    color: white;
+    color: #fff;
     transition: 0.2s;
+    background: linear-gradient(135deg, #0066ff, #00c6ff);
+    box-shadow: 0 0 10px rgba(0, 200, 255, 0.4);
 }
 
 button:hover {
-    transform: scale(1.05);
-}
-
-.botoes button:first-child {
-    background: #3b82f6;
+    transform: scale(1.08);
+    box-shadow: 0 0 15px rgba(0, 200, 255, 0.7);
 }
 
 .botoes button:last-child {
-    background: #16a34a;
+    background: linear-gradient(135deg, #00ff95, #00c46a);
+    box-shadow: 0 0 10px rgba(0, 255, 160, 0.4);
+}
+
+.botoes button:last-child:hover {
+    box-shadow: 0 0 15px rgba(0, 255, 160, 0.7);
 }
 
 .voltar {
-    background: #3b82f6;
+    background: linear-gradient(135deg, #0066ff, #00c6ff);
     margin-bottom: 15px;
 }
 
